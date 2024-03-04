@@ -1,0 +1,15 @@
+{
+    "MCDMRPG.Combat": "Combat",
+    "MCDMRPG.CombatDefaultInit": "Default Initiative",
+    "MCDMRPG.CombatTurnsPerRound": "Turns per Round",
+    "MCDMRPG.CombatReactPerRound": "Reactions per Round",
+
+    "MCDMRPG.Health": "Health",
+    "MCDMRPG.HealthCurrent": "Current Health",
+    "MCDMRPG.HealthMax": "Maximum Health",
+    "MCDMRPG.HealthTemp": "Temporary Health",
+    "MCDMRPG.HealthTempMax": "Maximum Temporary Health",
+
+    "SHEETS.HeroSheet": "Hero Sheet",
+    "SHEETS.NpcSheet": "NPC Sheet"
+}

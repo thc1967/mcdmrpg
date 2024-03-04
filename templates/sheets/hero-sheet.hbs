@@ -1,0 +1,11 @@
+<form class="{{ cssClass }} flexcol" autocomplete="off">
+    <header class="sheet-header">
+        <div class="left">
+            {{#if editable}}
+            <input type="text" name="name" class="document-name uninupt" value="{{ actor.name }}">
+            {{else}}
+            <div class="document-name">{{ actor.name }}</div>
+            {{/if}}
+        </div>
+    </header>
+</form>

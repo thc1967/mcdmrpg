@@ -1,0 +1,37 @@
+{
+    "id": "mcdmrpg",
+    "title": "MCDM RPG",
+    "description": "A system for playing the MCDM RPG in the Foundry Virtual Tabletop environment.",
+    "version": "0.0.1",
+    "compatibility": {
+        "minimum": "11",
+        "verified": "11"
+    },
+    "authors": [
+        { 
+            "name": "thc1967",
+            "url": "https://github.com/thc1967/mcdmrpg",
+            "flags": {}
+        }
+    ],
+    "esmodules": ["mcdm.mjs"],
+    "styles": ["mcdm.css"],
+    "languages": [
+        {
+            "lang": "en",
+            "name": "English",
+            "path": "lang/en.json",
+            "flags": {}
+        }
+    ],
+    "socket": false,
+    "primaryTokenAttribute": "attributes.health",
+    "url": "https://github.com/thc1967/mcdmrpg",
+    "manifest": "https://github.com/thc1967/mcdmrpg/master/system.json",
+    "flags": {
+        "hotReload": {
+            "extensions": ["css", "hbs", "json"],
+            "paths": ["lang", "styles", "templates"]
+        }
+    }
+}
